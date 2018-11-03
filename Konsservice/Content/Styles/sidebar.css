@@ -1,10 +1,10 @@
 ﻿.side-bar {
     border-right: 1px solid lightgray;
     text-decoration: none;
+    z-index: 10;
 }
 .side-bar a:hover {
     text-decoration:none;
-
 }
 
 .side-bar-button {

@@ -35,6 +35,10 @@ body {
     border-bottom: 1px solid gray;
 }
 
+.logo-block {
+    padding-left: 0;
+}
+
 .logo-block-main {
     position: fixed;
     width: 220px;
