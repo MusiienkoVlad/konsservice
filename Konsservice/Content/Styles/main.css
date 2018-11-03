@@ -1,0 +1,126 @@
+﻿p {
+    font-family: Inconsolata, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+html,
+body {
+    height: 100%;
+    font-family: Consolas;
+}
+
+.nav-bar {
+    margin-top: -45px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.logo-block-main {
+    position: fixed;
+    width: 220px;
+    position: relative;
+    z-index: 20;
+}
+
+.my-button {
+    margin: 5px;
+    border: 0.5px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(#939286, #ffffea);
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    box-shadow: 1px 1px 1px black;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+    .my-button a {
+        color: black;
+        font-size: inherit;
+    }
+
+        .my-button a:hover {
+            text-decoration: none;
+            text-decoration-line: none;
+        }
+
+    .my-button:hover {
+        text-decoration: none;
+        box-shadow: 2px 2px 2px #363636;
+        color: black;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+
+.main {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-text p {
+    font-size: 20px;
+    font-family: Consolas;
+}
+
+.main-video-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-video {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer {
+    height: 44px;
+    min-height: 7vh;
+    max-height: 10vh;
+    width: 100%;
+    border-top: 1px solid black;
+    background-color: rgba(56, 58, 53, 0.3);
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    bottom: 0;
+    position: relative;
+}
+
+    footer p {
+        padding-top: 10px;
+    }

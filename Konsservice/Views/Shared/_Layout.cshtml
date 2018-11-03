@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>@ViewBag.Title - Konsservice</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Styles/css")
+    @Styles.Render("~/Content/Styles/sidebar.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" href="~/Content/Styles/main.css">
+</head>
+<body>
+    <div class="row nav-bar">
+        <div class="col-md-3">
+            <a href=@Url.Action("Index","Home")>
+                <img class="logo-block-main" src="~/Content/Images/Konsservice logo.png" alt="konsservice" />
+            </a>
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <a href=@Url.Action("Index","Home")>
+                    <div class="col-md-2 my-button">Главная</div>
+                </a>
+                <a href=@Url.Action("ContactsView","Home")>
+                    <div class="col-md-2 my-button">Контакты</div>
+                </a>
+                <a href=@Url.Action("ServiceView","Home")>
+                    <div class="col-md-3 my-button">Услуги и цены</div>
+                </a>
+                <a href=@Url.Action("ReportsView","Home")>
+                    <div class="col-md-2 my-button">Отзывы</div>
+                </a>
+                <a href=@Url.Action("ClientsView","Home")>
+                    <div class="col-md-2 my-button">Клиенты</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row main">
+        <div class="col-md-3 side-bar">
+
+            <a href=@Url.Action("Index","Home")>
+                <div class="side-bar-button">Главная</div>
+            </a>
+            <a href=@Url.Action("ContactsView","Home")>
+                <div class="side-bar-button">Контакты</div>
+            </a>
+            <a href=@Url.Action("ServiceView","Home")>
+                <div class="side-bar-button">Услуги и цены</div>
+            </a>
+            <a href=@Url.Action("ReportsView","Home")>
+                <div class="side-bar-button">Отзывы</div>
+            </a>
+            <a href=@Url.Action("ClientsView","Home")>
+                <div class="side-bar-button">Клиенты</div>
+            </a>
+
+            <figure>
+                <img class="side-bar-adv" src="~/Content/Images/transferIMG.jpg" alt="Трансфер из аеропорта Барселона" />
+                <figcaption>Трансфер из аэропорта в Барселоне</figcaption>
+            </figure>
+            <figure>
+                <img class="side-bar-adv" src="~/Content/Images/travelGuideIMG.jpg" alt="Туристический гайд в Барселоне" />
+                <figcaption>Туристический гайд в Барселоне</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-9 container body-content">
+            @RenderBody()
+        </div>
+    </div>
+
+    <div class="row main-video-container">
+        <div class="col-md-3 side-bar">
+            <figure>
+                <img class="side-bar-adv" src="~/Content/Images/MontjuicCastle.jpg" alt="Монжуикская крепость в Барселоне" />
+                <figcaption>Монжуикская крепость</figcaption>
+            </figure>
+            <figure>
+                <img class="side-bar-adv" src="~/Content/Images/BarcelonaMuseum.jpg" alt="Музей в Барселоне" />
+                <figcaption>Музей в Барселоне</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-9 main-video">
+            <iframe width="750" height="475" src="https://www.youtube.com/embed/fyia7KGNCp0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div></div>
+
+    <footer>
+        <p>&copy; Konsservice - @DateTime.Now.Year</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

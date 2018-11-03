@@ -1,0 +1,10 @@
+﻿.slider {
+    margin-top:5px;
+    margin-bottom:25px;
+    display:flex;
+    justify-content:center;
+}
+
+.slider-photo {
+    border-radius: 30px;
+}
