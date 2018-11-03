@@ -1,0 +1,25 @@
+﻿.contact-bar {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+}
+
+    .contact-bar li {
+        font-size: 15px;
+    }
+
+    .contact-bar h4 {
+        font-size: 20px;
+    }
+
+.our-contacts {
+    padding-left: 70px;
+    border-right: 1px outset black;
+}
+
+.back-form {
+    margin-bottom: 10px;
+}

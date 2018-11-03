@@ -13,6 +13,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 html,
 body {
     height: 100%;
@@ -90,9 +91,11 @@ body {
     font-size: 23px;
     font-family: Consolas;
 }
+
 .main-text h2 {
     font-size: 28px;
 }
+
 .main-text ul {
     margin-left: 40px;
 }

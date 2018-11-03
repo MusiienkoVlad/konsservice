@@ -164,6 +164,7 @@
     <Content Include="Content\Images\sliderPhoto.jpg" />
     <Content Include="Content\Images\transferIMG.jpg" />
     <Content Include="Content\Images\travelGuideIMG.jpg" />
+    <Content Include="Content\Styles\contacts.css" />
     <Content Include="Content\Styles\main.css" />
     <Content Include="Content\Styles\sidebar.css" />
     <Content Include="Content\Styles\slider.css" />
